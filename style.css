@@ -4,19 +4,65 @@
 }
 body{
   font-size: 15px;
+  /* background-color: #F1B04399; */
+  background-image: url(background.jpeg);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-attachment: fixed;
+  /*background-attachment ensures that the background image shoukd scroll or remain fixed with the scrollof rest of the page */
+ 
 }
 #h1{
-  background-color: dodgerblue;
+  color: #FFFFFFA3;
+  background-color: #7E0AA4;
   /* color: orange; */
   text-align: center;
   padding: 5px;
+  margin: 10px 10px 0 10px;
+  border-radius: 5px;
 }
 #p1{
+  color: #FFFFFF;
   background-color: tomato;
   text-align: left;
   padding: 15px;
+  margin: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 0 0 0 5px;
+  border-color: #6C5CCA;
+  border-radius: 5px;
 }
 #border{
-  border: 2px solid chartreuse;
-  margin: 5px 0 5px 0;
+  background-color: #538F5C;
+  margin: 10px 10px 0 10px;
+  border-width: 0 0 0 5px;
+  border-style: solid;
+  border-color: #CA5C5C;
+  border-radius: 5px;
+  padding: 10px 0px 10px 10px;
 }
+
+
+#div1{
+  border-width: 10px;
+  border-radius: 15px;
+  border-style: solid;
+  margin: 10px 10px 10px 10px;
+  border-color: red yellow blue green;
+  /* this will color each border side different */
+  padding: 10px;
+}
+#div1{
+  border-width: 10px;
+  border-radius: 15px;
+  border-style: solid dotted dashed double;
+  /* this will make different side with different border style */
+  margin: 10px 10px 10px 10px;
+  border-color: red yellow blue green;
+  /* this will color each border side different */
+  padding: 10px;
+}
+
+
+
+
