@@ -13,6 +13,7 @@ body{
  
 }
 #h1{
+  box-sizing: border-box;
   color: #FFFFFFA3;
   background-color: #7E0AA4;
   /* color: orange; */
@@ -22,6 +23,7 @@ body{
   border-radius: 5px;
 }
 #p1{
+  box-sizing: border-box;
   color: #FFFFFF;
   background-color: tomato;
   text-align: left;
@@ -33,6 +35,7 @@ body{
   border-radius: 5px;
 }
 #border{
+  box-sizing: border-box;
   background-color: #538F5C;
   margin: 10px 10px 0 10px;
   border-width: 0 0 0 5px;
@@ -44,6 +47,7 @@ body{
 
 
 #div1{
+  box-sizing: border-box;
   border-width: 10px;
   border-radius: 15px;
   border-style: solid;
@@ -52,7 +56,8 @@ body{
   /* this will color each border side different */
   padding: 10px;
 }
-#div1{
+#div2{
+  box-sizing: border-box;
   border-width: 10px;
   border-radius: 15px;
   border-style: solid dotted dashed double;
@@ -62,7 +67,107 @@ body{
   /* this will color each border side different */
   padding: 10px;
 }
+#outline{
+  padding: 10px;
+  margin: 20px 20px 20px 20px;
+  box-sizing: border-box;
+  outline: 2px solid red;
+  border: 2px solid blue;
+  outline-offset: 10px;
+  /* outline offset add space between border and the outline */
+}
+#div3 {
+  background-color: #21B32C57;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-width: 0 5px 0 5px;
+  border-radius: 15px;
+  border-style: solid;
+  margin: 10px 10px 10px 10px;
+  border-color: red;
+  /* this will color each border side different */
+  padding: 10px
+}
+#align-left {
+  color: #5E0404;
+  text-align: left;
+}
+#align-right{
+  color: darkred;
+  text-align: right;
+}
+#align-center{
+  color: #062862;
+  text-align: center;
+}
+#justify{
+  color: black;
+  text-align: justify;
+}
+#rtl{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+#ltr{
+  direction: ltr;
+}
+#div4 {
+  box-sizing: border-box;
+  border-width: 0 0 0 10px;
+  border-radius: 15px;
+  border-style: solid;
+  margin: 10px 10px 10px 10px;
+  /* this will color each border side different */
+  padding: 10px;
+}
+#overline{
+  text-decoration-line: overline;
+  text-decoration-color: green;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 10px;
+}
+#underline{
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+#line-through{
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+}
+#over-und{
+  text-decoration-line: overline underline;/*WE CAN ADD MULTIPLE TEXT-DECORATION IN SINGLE LINE LIKE THIS*/
+  text-decoration-color: blue;
+}
+#text-dec{
+  text-align: center;
+}
+#div5 {
+  background-color: black;
+  box-sizing: border-box;
+  border-width: 0 0 0 10px;
+  border-radius: 15px;
+  border-style: solid;
+  margin: 10px 10px 10px 10px;
+  border-color: greenyellow;
+  /* this will color each border side different */
+  padding: 10px;
+}
 
-
-
-
+#uppercase{
+  color: yellow;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+#lowercase{
+  color: yellow;
+  text-transform: lowercase;
+  font-size: 20px;
+}
+#capitalize{
+  color: yellow;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+#transform{
+  color: #0BD4F7C7;
+}
