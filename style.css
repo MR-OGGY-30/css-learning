@@ -3,6 +3,7 @@
   margin: 0 0 0 0;
 }
 body{
+  font-family: fantasy;
   font-size: 15px;
   /* background-color: #F1B04399; */
   background-image: url(background.jpeg);
@@ -14,13 +15,17 @@ body{
 }
 #h1{
   box-sizing: border-box;
-  color: #FFFFFFA3;
-  background-color: #7E0AA4;
-  /* color: orange; */
+  color: #ffffff;
+  background-color: #ffffff;
   text-align: center;
   padding: 5px;
   margin: 10px 10px 0 10px;
   border-radius: 5px;
+  text-shadow: 2px 2px 2px red, 0 0 10px red, 0 0 30px orangered;
+  border-width: 5px 0 0 5px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 10px;
 }
 #p1{
   box-sizing: border-box;
@@ -170,4 +175,47 @@ body{
 }
 #transform{
   color: #0BD4F7C7;
+}
+#div6{
+  box-sizing: border-box;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+}
+#indent{
+  text-indent: 20px;
+}
+#l-space{
+  letter-spacing: 5px;
+}
+#l-height{
+  line-height: 10px;
+}
+#w-space{
+  word-spacing: 5px;
+}
+#shadow1{
+  color: white;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  border-width: 0 0 0 10px;
+  border-style: solid;
+  border-color: #9F12F3;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  text-shadow: 2px 2px 2px #000000;
+}
+#shadow2{
+  color: white;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  border-width: 0 0 0 10px;
+  border-style: solid;
+  border-color: #9F12F3;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 5px 3px 5px darkblue;
 }
